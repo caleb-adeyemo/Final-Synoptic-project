@@ -23,16 +23,12 @@
 
 <main>
     <section class="intro">
-         <!--image slider start-->
     <div class="slider">
         <div class="slides">
-          <!--radio buttons start-->
-          <input type="radio" name="radio-btn" id="radio1">
-          <input type="radio" name="radio-btn" id="radio2">
-          <input type="radio" name="radio-btn" id="radio3">
-          <input type="radio" name="radio-btn" id="radio4">
-          <!-- radio buttons end-->
-          <!--slide images start -->
+          <input type="radio" name="btn" id="radio1">
+          <input type="radio" name="btn" id="radio2">
+          <input type="radio" name="btn" id="radio3">
+          <input type="radio" name="btn" id="radio4">
           <div class="slide first">
             <img src="photos/beach-view.png" alt="">
           </div>
@@ -43,28 +39,23 @@
             <img src="photos/Piedritas_img.png" alt="">
           </div>
           <div class="slide">
-            <img src="photos/map.png" alt="">
+            <img src="photos/pic.png" alt="">
           </div>
-          <!--slide images end-->
-          <!--automatic navigation start-->
+          
           <div class="navigation-auto">
-            <div class="auto-btn1"></div>
-            <div class="auto-btn2"></div>
-            <div class="auto-btn3"></div>
-            <div class="auto-btn4"></div>
+            <div class="auto1"></div>
+            <div class="auto2"></div>
+            <div class="auto3"></div>
+            <div class="auto4"></div>
           </div>
-          <!--automatic navigation end-->
         </div>
-        <!--manual navigation start-->
         <div class="navigation-manual">
-          <label for="radio1" class="manual-btn"></label>
-          <label for="radio2" class="manual-btn"></label>
-          <label for="radio3" class="manual-btn"></label>
-          <label for="radio4" class="manual-btn"></label>
+          <label for="radio1" class="manual"></label>
+          <label for="radio2" class="manual"></label>
+          <label for="radio3" class="manual"></label>
+          <label for="radio4" class="manual"></label>
         </div>
-        <!--manual navigation end-->
       </div>
-      <!--image slider end-->
         <div id="map_intro">
             <h2>Map</h2>
         </div>
@@ -75,17 +66,6 @@
             <div id="map">
             </div>
         </div>
-
-        <script type="text/javascript">
-            var counter = 1;
-            setInterval(function(){
-              document.getElementById('radio' + counter).checked = true;
-              counter++;
-              if(counter > 4){
-                counter = 1;
-              }
-            }, 5000);
-            </script>
     </section>
 
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"/>
