@@ -47,9 +47,9 @@ padding-bottom: 20px;
 }
 
 #nav_links a:hover {
-  background-color: white;
+  background-color: #f1b24a;
   color: black;
-  transition: 1s;
+  transition: 0.8s;
 }
 
 /*Explore Shops  */
@@ -127,11 +127,19 @@ padding-bottom: 20px;
 #map_intro {
   width: 100%;
   height: 300px;
-  font-size: 2.2rem;
-  font-weight: 500;
   align-items: center;
   justify-content: center;
   display: flex;
+	font-size: 50px;
+  color: white;
+	-webkit-text-stroke: 2px #282828;
+	text-shadow: 0px 3px 3px white;
+}
+
+#map_intro:hover{
+  color: black;
+  -webkit-text-stroke: 2px white;
+	text-shadow: 0px 3px 3px #282828;
 }
 
 #map_intro h2 {
