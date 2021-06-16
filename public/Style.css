@@ -18,7 +18,6 @@ header {
     padding-bottom: 20px;
 }
 
-
 /*Nav Bar*/
 
 #nav_bar {
@@ -53,7 +52,6 @@ header {
     color: black;
     transition: 0.8s;
 }
-
 
 /*Explore Shops  */
 
@@ -127,19 +125,18 @@ header {
     color: black;
 }
 
-
 /*Maps*/
 
 .slider {
     width: 100%;
-    height: 500px;
+    height: 700px;
     border-radius: 10px;
     overflow: hidden;
 }
 
 .slides {
     width: 500%;
-    height: 500px;
+    height: 700px;
     display: flex;
 }
 
@@ -154,21 +151,20 @@ header {
 
 .slide img {
     width: 100%;
-    height: 500px;
+    height: 600px;
 }
-
 
 /*manual slide navigation*/
 
 .navigation-manual {
     position: absolute;
     width: 800px;
-    margin-top: -40px;
+    margin-top: -240px;
     display: flex;
     justify-content: center;
 }
 
-.manual-btn {
+.manual {
     border: 2px solid #0d610e;
     padding: 5px;
     border-radius: 10px;
@@ -176,11 +172,11 @@ header {
     transition: 1s;
 }
 
-.manual-btn:not(:last-child) {
+.manual:not(:last-child) {
     margin-right: 40px;
 }
 
-.manual-btn:hover {
+.manual:hover {
     background: #0d610e;
 }
 
@@ -221,19 +217,19 @@ header {
     margin-right: 40px;
 }
 
-#radio1:checked~.navigation-auto .auto-btn1 {
+#radio1:checked~.navigation-auto .auto1{
     background: #0d610e;
 }
 
-#radio2:checked~.navigation-auto .auto-btn2 {
+#radio2:checked~.navigation-auto .auto2 {
     background: #0d610e;
 }
 
-#radio3:checked~.navigation-auto .auto-btn3 {
+#radio3:checked~.navigation-auto .auto3 {
     background: #0d610e;
 }
 
-#radio4:checked~.navigation-auto .auto-btn4 {
+#radio4:checked~.navigation-auto .auto4 {
     background: #0d610e;
 }
 
@@ -275,7 +271,6 @@ header {
     border-radius: 1.5px;
     z-index: 90;
 }
-
 
 /*Promotions page*/
 
