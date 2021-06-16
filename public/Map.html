@@ -4,32 +4,81 @@
     <meta charset="UTF-8">
     <title>Map</title>
     <link rel="stylesheet" href="Style.css">
-
     <script defer src="Javascript.js"></script>
-
 </head>
 <body>
   <header>
     <div id="nav_bar">
-        <div id="left_nav">
-            <img src="photos/bird.png" style="width: 60px; height: 60px" alt="logo">
-        </div>
-        <ul id="nav_links">
-            <li><a href="index.html">Explore</a></li>
-            <li><a href="Map.html">Map</a></li>
-            <li><a href="Promotions.html">Promotions</a></li>
-            <li><a href="#">Extra</a></li>
-        </ul>
+      <div id="left_nav">
+        <img src="photos/bird.png" style="width: 70px; height: 70px" alt="logo">
+      </div>
+      <ul id="nav_links">
+        <li><a href="index.html">Explore</a></li>
+        <li><a href="Map.html">Map</a></li>
+        <li><a href="Promotions.html">Promotions</a></li>
+        <li><a href="#">Extra</a></li>
+      </ul>
     </div>
 </header>
-<div id="map_intro">
-    <h2>Map</h2>
-</div>
-<div id="map_wrapper">
-    <div id="map">
-    </div>
-</div>
-</body>
+
+<main>
+    <section class="intro">
+    <div class="slider">
+        <div class="slides">
+          <input type="radio" name="btn" id="radio1">
+          <input type="radio" name="btn" id="radio2">
+          <input type="radio" name="btn" id="radio3">
+          <input type="radio" name="btn" id="radio4">
+          <div class="slide first">
+            <img src="photos/beach-view.png" alt="">
+          </div>
+          <div class="slide">
+            <img src="photos/surf.png" alt="">
+          </div>
+          <div class="slide">
+            <img src="photos/Piedritas_img.png" alt="">
+          </div>
+          <div class="slide">
+            <img src="photos/pic.png" alt="">
+          </div>
+          
+          <div class="navigation-auto">
+            <div class="auto1"></div>
+            <div class="auto2"></div>
+            <div class="auto3"></div>
+            <div class="auto4"></div>
+          </div>
+        </div>
+        <div class="navigation-manual">
+          <label for="radio1" class="manual"></label>
+          <label for="radio2" class="manual"></label>
+          <label for="radio3" class="manual"></label>
+          <label for="radio4" class="manual"></label>
+        </div>
+      </div>
+        <div id="map_intro">
+            <h2>Map</h2>
+        </div>
+        <div id="des">
+            <h3>Use this interactive map to explore Lobitos and Piedritas.</h3>
+        </div>
+        <div id="map_wrapper">
+            <div id="map">
+            </div>
+        </div>
+    </section>
+
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"/>
 <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
 </html>
+</main>
+
+<!-- Footer Section -->
+<footer>
+  <div class="footer_container">
+    <h2><u>Customer Support:</u></h2>
+    <p>call or text at +51-123-456-1234 for help.</p>
+    <br>See latest promotions: <a href=Promotions.html target="_blank"> click here </a>
+  </div>
+</footer>
+</body>
