@@ -13,7 +13,7 @@ body{
 }
 
 header{
-height: 140px;
+height: 50%;
 padding-top: 20px;
 padding-bottom: 20px;
 }
@@ -199,7 +199,7 @@ form textarea {
 
 .ad_button:hover {
   border: 5px solid;
-  color: #1c491d;
+  color: black;
 }
 
 #ad_page div {
