@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');*/
 *{
   margin: 0;
   padding: 0;
@@ -68,7 +68,6 @@ padding-bottom: 20px;
 
 #showcaseimage h1{
   margin-top: 100px;
-  font-size: 50px;
   margin-bottom: 10px;
   color: white;
 	font-size: 56px;
@@ -78,8 +77,9 @@ padding-bottom: 20px;
 
 #showcaseimage h1:hover{
   opacity: 0.8;
-  font-size: 66;
+  font-size: 66px;
   color: #0d610e;
+  transition: 1s;
 }
 
 #shop_wrapper{
@@ -98,6 +98,7 @@ padding-bottom: 20px;
   padding: 20px;
   border: 2px solid grey;
   background-color: #9DC88D;
+  cursor: pointer;
 }
 
 .shop:hover{
